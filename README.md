@@ -4,20 +4,22 @@
 
 ## Objective
 
-The capstone boxes aimed to establish a controlled environment for simulating and performing cyber attacks. The primary focus was to safely simulate real-world cyberattacks on systems, networks, or applications in order to: mimic real-world attack scenarios, develope an adversary mindset, and also keep my learning in mind for my day job for detecting and analyzing security alerts as a SOC Analyst. This hands-on experience was designed to deepen understanding of a hacker mindset, attack processes, and offensive strategies.
+These capstone boxes aim to establish a controlled environment for simulating and performing cyber attacks. The primary focuses were to safely simulate real-world cyberattacks on systems, networks, or applications in order to: mimic real-world attack scenarios, develope an adversary mindset, and also help in my day job for detecting and analyzing security alerts as a SOC Analyst. This hands-on experience was designed to deepen understanding of a hacker mindset, attack processes, and offensive strategies.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Advanced understanding of attack concepts and practical application.
 - Information gathering and enumeration by scanning networks and enumerating services.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Offensive security techniques (exploiting vulnerabilities, tools used, techniques).
+- Gaining familiarity with post-compromise techniques.
+- Correlating simulated attack behavior with real-world alerts I see at work.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Nmap - Tool used to gather information about hosts, services, and operating systems on a network. 
+- Metasploit - Penetration testing framework that helps security professionals identify and exploit vulnerabilities in networks, systems, and applications.
+- Github tools to create realistic exploitation and attack scenarios.
+- Hashcat - Password cracking tool
+- Fuff - Fast web fuzzer that allows directory discovery.
+- BurpSuite - Web application security testing software suite used for penetration testing.
+- Netcat - Networking utility used for establishing connections, reading and writing data over TCP and UDP protocols (used it for transferring files/backdoor).
